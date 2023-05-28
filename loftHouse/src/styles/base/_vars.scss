@@ -1,0 +1,54 @@
+// Fonts
+$font-main: "Raleway", sans-serif;
+$font-accent: "Playfair Display", serif;
+$font-secondary: "Roboto", sans-serif;
+
+// Colors
+$dark: #242b33;
+$accent: #d4c17f;
+$white: #fff;
+$footer-bg: #2d343c;
+$placeholder: #bebebe;
+$muted: #e7e7e7;
+
+// Media
+$tablet: 959px;
+
+// Adaptive ------------------------------
+
+// Display none social header
+@mixin _767 {
+  @media (min-width: 767px) {
+    @content;
+  }
+}
+
+@mixin _1280 {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin _1225 {
+  @media (max-width: 1225px) {
+    @content;
+  }
+}
+
+@mixin _1130 {
+  @media (max-width: 1130px) {
+    @content;
+  }
+}
+
+@mixin _1000 {
+  @media (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin _768 {
+  @media (max-width: 768px) {
+    @content;
+  }
+}

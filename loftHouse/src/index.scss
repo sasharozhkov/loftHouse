@@ -1,0 +1,12 @@
+// Global styles
+@import "styles/base/fonts", "styles/base/vars", "styles/base/mixins",
+  "styles/base/base";
+
+// Local styles
+@import "styles/blocks/header", "styles/blocks/nav", "styles/blocks/info",
+  "styles/blocks/benefits", "styles/blocks/apartmens", "styles/blocks/card",
+  "styles/blocks/cta", "styles/blocks/form", "styles/blocks/video",
+  "styles/blocks/section-map", "styles/blocks/feedback", "styles/blocks/footer",
+  "styles/blocks/nav-icon", "styles/blocks/yandex-map";
+
+@import "libs/youtubeLightbox/youtubeLightbox";
